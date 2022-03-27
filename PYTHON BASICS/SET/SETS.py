@@ -93,3 +93,49 @@ Add Any Iterable
 The object in the update() method does not have to be a set, 
 it can be any iterable object (tuples, lists, dictionaries etc.).
 """
+print("\n\n\n")
+set07 ={1,2,3,4}
+list01 = [9,8,7,5]
+set07.update(list01)
+print(set07)
+
+
+"""
+Remove Item
+To remove an item in a set, use the remove(), or the discard() method.
+"""
+
+set08 = {'apple','orange','pineapple','lemon'}
+print(set08)
+set08.remove('apple')
+print(set08)
+set08.discard('pineapple')
+print(set08)
+
+"""
+Note: If the item to remove does not exist, remove() will raise an error.
+Note: If the item to remove does not exist, discard() will NOT raise an error.
+
+
+You can also use the pop() method to remove an item, 
+but this method will remove the last item. 
+Remember that sets are unordered, 
+so you will not know what item that gets removed.
+
+The return value of the pop() method is the removed item.
+"""
+print("\n\n\n")
+set09 = {"apple","orange","lemon","pineapple"}
+print(set09)
+set09.pop()
+print(set09)
+print(set09.pop())
+print(set09)
+
+"""
+The del keyword will delete the set completely:
+"""
+thisset = {"apple", "banana", "cherry"}
+print(thisset)
+del thisset
+#print(thisset) --->this shows error
