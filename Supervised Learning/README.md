@@ -23,14 +23,16 @@ The machine is already trained on all types of shapes, and when it finds a new s
 
 Steps Involved in Supervised Learning:
 --------------------------------
-First Determine the type of training dataset
-Collect/Gather the labelled training data.
-Split the training dataset into training dataset, test dataset, and validation dataset.
-Determine the input features of the training dataset, which should have enough knowledge so that the model can accurately predict the output.
-Determine the suitable algorithm for the model, such as support vector machine, decision tree, etc.
-Execute the algorithm on the training dataset. Sometimes we need validation sets as the control parameters, which are the subset of training datasets.
-Evaluate the accuracy of the model by providing the test set. If the model predicts the correct output, which means our model is accurate.
+- First Determine the type of training dataset
+- Collect/Gather the labelled training data.
+- Split the training dataset into training dataset, test dataset, and validation dataset.
+- Determine the input features of the training dataset, which should have enough knowledge so that the model can accurately predict the output.
+- Determine the suitable algorithm for the model, such as support vector machine, decision tree, etc.
+- Execute the algorithm on the training dataset. Sometimes we need validation sets as the control parameters, which are the subset of training datasets.
+- Evaluate the accuracy of the model by providing the test set. If the model predicts the correct output, which means our model is accurate.
+
 Types of supervised Machine learning Algorithms:
+-----------------------------
 Supervised learning can be further divided into two types of problems:
 
 Supervised Machine learning
