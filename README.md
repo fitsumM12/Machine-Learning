@@ -1,2 +1,4 @@
 # Machine-Learning
-# Different machine learning algorithms implementations will be uploaded here
+*** Supervised Learning ***
+*** Unsupervised Learning ***
+*** Re-inforcement Learning *** 
